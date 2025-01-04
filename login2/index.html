@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StockFlow Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="dashboard">
+    <aside class="sidebar">
+      <h2>StockFlow</h2>
+      <nav>
+        <ul>
+          <li><a href="#" class="active">Dashboard</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Suppliers</a></li>
+          <li><a href="#">Users</a></li>
+          <li><a href="#">Settings</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="main-content">
+      <header class="header">
+        <input type="text" placeholder="Search products, suppliers..." />
+        <button class="btn filters">Filters</button>
+        <button class="btn add-product">+ Add Product</button>
+      </header>
+
+      <section class="stats">
+        <div class="stat-card">
+          <h3>Total Products</h3>
+          <p>2,451</p>
+        </div>
+        <div class="stat-card low-stock">
+          <h3>Low Stock Items</h3>
+          <p>15</p>
+        </div>
+        <div class="stat-card active-suppliers">
+          <h3>Active Suppliers</h3>
+          <p>126</p>
+        </div>
+        <div class="stat-card pending-orders">
+          <h3>Pending Orders</h3>
+          <p>8</p>
+        </div>
+      </section>
+
+      <section class="recent-activity">
+        <h3>Recent Activity</h3>
+        <ul>
+          <li>
+            <span class="icon received"></span>
+            Stock received: 200 units of Product A <span class="time">2 hours ago</span>
+          </li>
+          <li>
+            <span class="icon stock-out"></span>
+            Stock out: 50 units of Product B <span class="time">4 hours ago</span>
+          </li>
+          <li>
+            <span class="icon low-stock-alert"></span>
+            Low stock alert: Product C (5 units remaining) <span class="time">6 hours ago</span>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
