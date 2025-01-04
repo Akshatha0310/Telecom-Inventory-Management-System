@@ -23,7 +23,6 @@ The Telecom Inventory Management System (TIMS) is designed for seamless manageme
 - **Stock Transactions**: Log stock in/out transactions
 - **Notifications**: Alerts for low stock, overdue orders
 
----
 
 ### 2. **Backend (Server & APIs)**
 
@@ -34,7 +33,6 @@ The Telecom Inventory Management System (TIMS) is designed for seamless manageme
 - **Notification Triggers**: Low stock, overdue orders
 - **Input Validation**: Ensure data integrity (e.g., product codes, stock counts)
 
----
 
 ### 3. **Database (Data Storage & Management)**
 
@@ -48,7 +46,6 @@ The Telecom Inventory Management System (TIMS) is designed for seamless manageme
 - Normalized Tables
 - Secure handling of sensitive data
 
----
 
 ### 4. **Alerts & Notifications**
 
